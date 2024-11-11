@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Bona Nova SC", serif;
+    font-size:16px;
+}
+a {
+    color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  
+}
+
+
+h1, h2 {
+    font-size: 28px;
+text-align: center;
+margin-bottom: 20px;
+color: rgb(5, 5, 88);
+}
+h2 {
+    font-size: 22px;
+}
+ul {
+    list-style-type: none;
+}
+.header-section-wrap{
+    background-color: rgb(51, 47, 47);
+    margin-bottom: 15px;
+    
+}
+.navigation-section {
+    display: flex;
+    padding: 10px 20px;
+}
+.navigation-section-logo-wrap {
+margin-right: 20px;
+padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.navigation-section-pages-wrap{
+    display: flex;
+}
+.navigation-section-pages-wrap div {
+    margin-right: 20px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(51, 47, 47);
+}
+.navigation-section-pages-wrap div:hover {
+    border: 1px solid rgb(103, 226, 248);
+}
+.navigation-section a{
+    color: rgb(199, 191, 191);
+}
+.navigation-section a:hover {
+    color: rgb(103, 226, 248);
+}
+.navigation-section-logo-wrap a{
+    color: white;
+}
+.main-section-wrap{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+.hero-section{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+.main-content-section-wrap{
+    display:flex;
+    flex-wrap: wrap;
+    
+    padding: 15px;
+    background-color: rgb(187, 195, 223);
+    margin-bottom: 15px;
+    border-radius: 7px;
+
+}
+.left-container, .right-container {
+    max-width: 340px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+.personal-details-wrap, .personal-statement-wrap {
+    margin-bottom: 10px;
+}
+.footer-section-wrap {
+    height: 80px;
+    padding: 16px 30px;
+    background-color: rgb(51, 47, 47);
+}
+.social-icons-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons-wrap img:hover {
+    transform: scale(1.1);
+    filter: invert(73%) sepia(58%) saturate(735%) hue-rotate(165deg) brightness(109%) contrast(95%);
+    
+}
+#hireme-btn {
+    margin-bottom: 15px;
+   margin-left: auto;
+   margin-right: auto;
+    height: 50px;
+    /* max-width: 80%; */
+    width: 80%;
+    color: rgb(5, 5, 88);
+    font-size: 24px;
+    font-weight:700;
+    background-color: white;
+    border: 1px solid rgb(51, 47, 47);
+}
+#hireme-btn:hover {
+    transform: scale(1.1);
+    background-color: rgb(103, 226, 248);
+    border: none;
+}
+
